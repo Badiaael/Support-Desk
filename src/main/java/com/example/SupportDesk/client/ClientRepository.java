@@ -1,5 +1,7 @@
 package com.example.SupportDesk.client;
 
-public class ClientRepository {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClientRepository extends JpaRepository <Client , Long> {
+    Boolean existsByNameIgnoreCase(String name);
 }
