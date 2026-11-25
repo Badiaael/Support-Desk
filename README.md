@@ -10,3 +10,4 @@ A web application that helps with the management of technical problems tickets
 - Node.js
 - PostgreSQL
 - Flyway
+- Python
